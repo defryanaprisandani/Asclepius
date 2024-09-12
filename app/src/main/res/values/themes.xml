@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Asclepius" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary colors -->
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar -->
+        <item name="android:statusBarColor">@color/colorPrimaryDark</item>
+        <!-- Navigation bar -->
+        <item name="android:navigationBarColor">@color/colorPrimary</item>
+        <!-- Toolbar -->
+        <item name="android:toolbarStyle">@style/Widget.Toolbar</item>
+    </style>
+
+    <style name="Widget.Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+        <item name="background">@color/colorPrimary</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="subtitleTextColor">@color/white</item>
+    </style>
+</resources>
